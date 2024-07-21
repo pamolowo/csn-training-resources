@@ -1,0 +1,66 @@
+
+/* Remove any unwanted background color from the response div */
+#response {
+    background: transparent; /* Remove any background color */
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.jumbotron {
+    background: linear-gradient(to right, #87CEEB, #32CD32); /* Sky blue to green gradient */
+    color: white;
+    padding: 2rem 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.card-header {
+    background: linear-gradient(to right, #87CEEB, #32CD32); /* Sky blue to green gradient */
+    color: white;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.btn-primary {
+    background-color: #87CEEB;
+    border-color: #87CEEB;
+}
+
+.btn-primary:hover {
+    background-color: #32CD32;
+    border-color: #32CD32;
+}
+
+.invalid-feedback {
+    color: #e3342f;
+}
+
+::placeholder {
+    color: #6c757d;
+    opacity: 1;
+}
+
+.footer-space {
+    height: 50px; /* Adjust height as needed for footer spacing */
+}
+
+
